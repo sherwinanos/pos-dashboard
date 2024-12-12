@@ -1,0 +1,225 @@
+.sidebar {
+  border-color: #272727;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-style: solid;
+	width: 20%;
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+    li {padding-right: 24px;}
+
+    a {
+      align-items: center;
+      background: transparent;
+      border-radius: 0px 32px 32px 0px;
+      color: #D9D9D9;
+      display: flex;
+      gap: 16px;
+      padding: 20px 24px;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background: #6E56E0;
+        border-radius: 0px 32px 32px 0px;
+        color: white;
+        font-weight: 700;
+        transition: all 0.3s ease-in-out;
+      }
+
+      svg {
+        fill: white !important;
+      }
+    }
+
+    .is-active {
+      background: #6E56E0;
+      border-radius: 0px 32px 32px 0px;
+      color: white;
+      font-weight: 700;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .chicklet {
+      background: #FFD928;
+      border-radius: 16px;
+      color: #000000;
+      font-size: 12px;
+      line-height: 1;
+      padding: 6px 8px;
+    }
+    
+  }
+}
+
+.sidebar-details {
+  border-left: 1px solid #272727;
+
+  .sidebar-details--header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  .sidebar-details--body {
+    border-radius: 12px;
+    border: 1px solid #272727;
+    margin-bottom: 24px;
+    padding: 16px;
+
+    .user-details {
+      display: flex;
+      gap: 16px;
+
+      .detail-cols {
+        font-size: 14px;
+        width: 80%;
+
+        > div {
+          align-items: center;
+          display: flex;
+          gap: 16px;
+          margin-bottom: 8px;
+
+          span {
+            display: block;
+
+            &:first-child { 
+              color: #898989;
+              text-transform: uppercase;
+              width: 40% 
+            }
+
+            &:last-child { 
+              align-items: center;
+              display: flex;
+              gap: 4px;
+              width: 60%; 
+            }
+          }
+        }
+      }
+    }
+
+    .user-dates {
+      margin-top: 24px;
+
+      .range {
+        color: #898989;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .total-hours {
+        margin: 8px 0px;
+
+        .total-hours--head {
+          align-items: center;
+          color: #FFFFFF;
+          display: flex;
+          font-size: 12px;
+          font-weight: 700;
+          justify-content: space-between;
+          text-transform: uppercase;
+
+          a {
+            align-items: center;
+            color: #6E56E0;
+            display: flex;
+            gap: 4px;
+            text-decoration: none;
+          }
+        }
+
+        .total-hours--body {
+          .filter-head {
+            align-items: center;
+            background: #272727;
+            border-radius: 8px;
+            color: #898989;
+            display: flex;
+            font-size: 14px;
+            padding: 16px;
+            text-transform: upppercase;
+            margin: 24px 0px 8px;
+
+            a { 
+              align-items: center;
+              color: #898989;
+              display: flex;
+              text-decoration: none;
+              width: 33.33%;
+            }
+
+            span {
+              width: 33.33%
+            }
+          }
+
+          .filter-body {
+            align-items: center;
+            display: flex;
+            font-size: 14px;
+            padding: 8px 16px;
+
+            span {
+              font-weight: 700;
+              width: 33.33%;
+            }
+          }
+        }
+      }
+    }
+
+    .approval-item {
+      align-items: center;
+      display: flex;
+      gap: 16px;
+      margin-bottom: 32px;
+
+      .bullet {
+        background: #FFD928;
+        border-radius: 50%;
+        display: block;
+        height: 8px;
+        width: 8px;
+      }
+
+      .details {
+        width: 60%;
+
+        > div {
+          align-items: center;
+          display: flex;
+          margin-bottom: 8px;
+
+          &:last-child {
+            span:last-child { color: #898989; }
+          }
+
+          span:first-child { 
+            color: #898989;
+            text-transform: uppercase;
+            width: 40%;
+          }
+          span:last-child { width: 50% }
+        }
+      }
+
+      &.approved {
+        .bullet {
+          background: #288A05;
+        }
+
+        .details > div:last-child {
+          span:last-child { color: #FFFFFF; }
+        }
+      }
+    }
+  }
+}

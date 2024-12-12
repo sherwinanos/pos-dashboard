@@ -1,0 +1,28 @@
+// HEADER
+#header {
+	align-items: center;
+	border-bottom: 1px solid #272727;
+	display: flex;
+
+	> div {
+		align-items: center;
+		display: flex;
+		padding: 24px;
+	}
+
+	.header-left {
+		justify-content: space-between;
+		width: 20%;
+	}
+
+	.header-center {
+		gap: 16px;
+		width: 50%
+	}
+
+	.header-right {
+		gap: 16px;
+		justify-content: flex-end;
+		width: 30%;
+	}
+}

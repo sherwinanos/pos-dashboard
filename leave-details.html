@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Leave Details | Menumiz HR</title>
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header id="header">
+			<div class="header-left">
+				<a href="#">
+					<img src="assets/img/logo-hrhr.png" alt="HRHR logo" width="100" height="31" />
+				</a>
+				<a href="#">
+					<img src="assets/img/icon-toggle.png" alt="toggle" width="24" height="29" />
+				</a>	
+			</div>
+
+			<div class="header-center">
+				<img src="assets/img/logo-menumiz-hr.svg" alt="Menumiz logo" width="24" height="24"  />
+				<p class="semibold">Menumiz HR</p>
+			</div>
+			
+			<div class="header-right">
+				<div class="search-wrapper">
+					<img src="assets/img/icon-search.svg" alt="Search icon" width="24" height="24" />
+					<form role="search">
+						<input type="search" placeholder="Enter any keyword..." />
+					</form>
+				</div>
+				
+				<a href="#">
+					<img src="assets/img/icon-settings.svg" alt="Settings icon" width="24" height="24" />
+				</a>
+				
+				<a href="#">
+					<img src="assets/img/icon-notification-active.svg" alt="Notification icon" width="40" height="40" />
+				</a>
+				
+				<a href="#">
+					<img src="assets/img/avatar-user.png" alt="Notification icon" width="40" height="40" />
+				</a>
+			</div>
+		</header>
+
+		<!-- MAIN -->
+		<main id="dashboard" class="dashboard">
+			<!-- Sidebar -->
+			<section id="sidebar" class="sidebar">
+				<ul>
+					<li>
+						<a href="#" class="sidebar-link--dashboard">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22 8.52V3.98C22 2.57 21.36 2 19.77 2L15.73 2C14.14 2 13.5 2.57 13.5 3.98V8.51C13.5 9.93 14.14 10.49 15.73 10.49H19.77C21.36 10.5 22 9.93 22 8.52Z" fill="white"/>
+								<path d="M22 19.77V15.73C22 14.14 21.36 13.5 19.77 13.5H15.73C14.14 13.5 13.5 14.14 13.5 15.73V19.77C13.5 21.36 14.14 22 15.73 22H19.77C21.36 22 22 21.36 22 19.77Z" fill="white"/>
+								<path d="M10.5 8.52V3.98C10.5 2.57 9.86 2 8.27 2L4.23 2C2.64 2 2 2.57 2 3.98L2 8.51C2 9.93 2.64 10.49 4.23 10.49H8.27C9.86 10.5 10.5 9.93 10.5 8.52Z" fill="white"/>
+								<path d="M10.5 19.77V15.73C10.5 14.14 9.86 13.5 8.27 13.5H4.23C2.64 13.5 2 14.14 2 15.73L2 19.77C2 21.36 2.64 22 4.23 22H8.27C9.86 22 10.5 21.36 10.5 19.77Z" fill="white"/>
+							</svg>
+							Dashboard
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.75 3.56V2C16.75 1.59 16.41 1.25 16 1.25C15.59 1.25 15.25 1.59 15.25 2V3.5H8.74999V2C8.74999 1.59 8.40999 1.25 7.99999 1.25C7.58999 1.25 7.24999 1.59 7.24999 2V3.56C4.54999 3.81 3.23999 5.42 3.03999 7.81C3.01999 8.1 3.25999 8.34 3.53999 8.34H20.46C20.75 8.34 20.99 8.09 20.96 7.81C20.76 5.42 19.45 3.81 16.75 3.56Z" fill="#EEEEEE"/>
+								<path d="M20 9.84H4C3.45 9.84 3 10.29 3 10.84L3 17C3 20 4.5 22 8 22H16C19.5 22 21 20 21 17V10.84C21 10.29 20.55 9.84 20 9.84ZM9.21 18.21C9.16 18.25 9.11 18.3 9.06 18.33C9 18.37 8.94 18.4 8.88 18.42C8.82 18.45 8.76 18.47 8.7 18.48C8.63 18.49 8.57 18.5 8.5 18.5C8.37 18.5 8.24 18.47 8.12 18.42C7.99 18.37 7.89 18.3 7.79 18.21C7.61 18.02 7.5 17.76 7.5 17.5C7.5 17.24 7.61 16.98 7.79 16.79C7.89 16.7 7.99 16.63 8.12 16.58C8.3 16.5 8.5 16.48 8.7 16.52C8.76 16.53 8.82 16.55 8.88 16.58C8.94 16.6 9 16.63 9.06 16.67C9.11 16.71 9.16 16.75 9.21 16.79C9.39 16.98 9.5 17.24 9.5 17.5C9.5 17.76 9.39 18.02 9.21 18.21ZM9.21 14.71C9.02 14.89 8.76 15 8.5 15C8.24 15 7.98 14.89 7.79 14.71C7.61 14.52 7.5 14.26 7.5 14C7.5 13.74 7.61 13.48 7.79 13.29C8.07 13.01 8.51 12.92 8.88 13.08C9.01 13.13 9.12 13.2 9.21 13.29C9.39 13.48 9.5 13.74 9.5 14C9.5 14.26 9.39 14.52 9.21 14.71ZM12.71 18.21C12.52 18.39 12.26 18.5 12 18.5C11.74 18.5 11.48 18.39 11.29 18.21C11.11 18.02 11 17.76 11 17.5C11 17.24 11.11 16.98 11.29 16.79C11.66 16.42 12.34 16.42 12.71 16.79C12.89 16.98 13 17.24 13 17.5C13 17.76 12.89 18.02 12.71 18.21ZM12.71 14.71C12.66 14.75 12.61 14.79 12.56 14.83C12.5 14.87 12.44 14.9 12.38 14.92C12.32 14.95 12.26 14.97 12.2 14.98C12.13 14.99 12.07 15 12 15C11.74 15 11.48 14.89 11.29 14.71C11.11 14.52 11 14.26 11 14C11 13.74 11.11 13.48 11.29 13.29C11.38 13.2 11.49 13.13 11.62 13.08C11.99 12.92 12.43 13.01 12.71 13.29C12.89 13.48 13 13.74 13 14C13 14.26 12.89 14.52 12.71 14.71ZM16.21 18.21C16.02 18.39 15.76 18.5 15.5 18.5C15.24 18.5 14.98 18.39 14.79 18.21C14.61 18.02 14.5 17.76 14.5 17.5C14.5 17.24 14.61 16.98 14.79 16.79C15.16 16.42 15.84 16.42 16.21 16.79C16.39 16.98 16.5 17.24 16.5 17.5C16.5 17.76 16.39 18.02 16.21 18.21ZM16.21 14.71C16.16 14.75 16.11 14.79 16.06 14.83C16 14.87 15.94 14.9 15.88 14.92C15.82 14.95 15.76 14.97 15.7 14.98C15.63 14.99 15.56 15 15.5 15C15.24 15 14.98 14.89 14.79 14.71C14.61 14.52 14.5 14.26 14.5 14C14.5 13.74 14.61 13.48 14.79 13.29C14.89 13.2 14.99 13.13 15.12 13.08C15.3 13 15.5 12.98 15.7 13.02C15.76 13.03 15.82 13.05 15.88 13.08C15.94 13.1 16 13.13 16.06 13.17C16.11 13.21 16.16 13.25 16.21 13.29C16.39 13.48 16.5 13.74 16.5 14C16.5 14.26 16.39 14.52 16.21 14.71Z" fill="#EEEEEE"/>
+							</svg>								
+							Calendar
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9 2C6.38 2 4.25 4.13 4.25 6.75C4.25 9.32 6.26 11.4 8.88 11.49C8.96 11.48 9.04 11.48 9.1 11.49C9.12 11.49 9.13 11.49 9.15 11.49C9.16 11.49 9.16 11.49 9.17 11.49C11.73 11.4 13.74 9.32 13.75 6.75C13.75 4.13 11.62 2 9 2Z" fill="#898989"/>
+								<path d="M14.08 14.15C11.29 12.29 6.74002 12.29 3.93002 14.15C2.66002 15 1.96002 16.15 1.96002 17.38C1.96002 18.61 2.66002 19.75 3.92002 20.59C5.32002 21.53 7.16002 22 9.00002 22C10.84 22 12.68 21.53 14.08 20.59C15.34 19.74 16.04 18.6 16.04 17.36C16.03 16.13 15.34 14.99 14.08 14.15Z" fill="#898989"/>
+								<path d="M19.99 7.34001C20.15 9.28001 18.77 10.98 16.86 11.21C16.85 11.21 16.85 11.21 16.84 11.21H16.81C16.75 11.21 16.69 11.21 16.64 11.23C15.67 11.28 14.78 10.97 14.11 10.4C15.14 9.48001 15.73 8.10001 15.61 6.60001C15.54 5.79001 15.26 5.05001 14.84 4.42001C15.22 4.23001 15.66 4.11001 16.11 4.07001C18.07 3.90001 19.82 5.36001 19.99 7.34001Z" fill="#898989"/>
+								<path d="M21.99 16.59C21.91 17.56 21.29 18.4 20.25 18.97C19.25 19.52 17.99 19.78 16.74 19.75C17.46 19.1 17.88 18.29 17.96 17.43C18.06 16.19 17.47 15 16.29 14.05C15.62 13.52 14.84 13.1 13.99 12.79C16.2 12.15 18.98 12.58 20.69 13.96C21.61 14.7 22.08 15.63 21.99 16.59Z" fill="#898989"/>
+							</svg>
+							Recruitment
+							<span class="chicklet">10</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 2C9.38 2 7.25 4.13 7.25 6.75C7.25 9.32 9.26 11.4 11.88 11.49C11.96 11.48 12.04 11.48 12.1 11.49C12.12 11.49 12.13 11.49 12.15 11.49C12.16 11.49 12.16 11.49 12.17 11.49C14.73 11.4 16.74 9.32 16.75 6.75C16.75 4.13 14.62 2 12 2Z" fill="#898989"/>
+								<path d="M17.08 14.15C14.29 12.29 9.74002 12.29 6.93002 14.15C5.66002 15 4.96002 16.15 4.96002 17.38C4.96002 18.61 5.66002 19.75 6.92002 20.59C8.32002 21.53 10.16 22 12 22C13.84 22 15.68 21.53 17.08 20.59C18.34 19.74 19.04 18.6 19.04 17.36C19.03 16.13 18.34 14.99 17.08 14.15Z" fill="#898989"/>
+							</svg>
+							Employees
+						</a>
+					</li>
+					<li>
+						<a href="#" class="is-active">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 17.93 17.93 22.75 12 22.75ZM12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C17.1 21.25 21.25 17.1 21.25 12C21.25 6.9 17.1 2.75 12 2.75Z" fill="white"/>
+								<path d="M15.71 15.93C15.58 15.93 15.45 15.9 15.33 15.82L12.23 13.97C11.46 13.51 10.89 12.5 10.89 11.61V7.50999C10.89 7.09999 11.23 6.75999 11.64 6.75999C12.05 6.75999 12.39 7.09999 12.39 7.50999V11.61C12.39 11.97 12.69 12.5 13 12.68L16.1 14.53C16.46 14.74 16.57 15.2 16.36 15.56C16.21 15.8 15.96 15.93 15.71 15.93Z" fill="white"/>
+							</svg>
+							Leave
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M20 6.25C21.2426 6.25 22.25 5.24264 22.25 4C22.25 2.75736 21.2426 1.75 20 1.75C19.0203 1.75 18.1869 2.37611 17.878 3.25L14 3.25C11.58 3.25 10.25 4.58 10.25 7V11.25H6.12197C5.81309 10.3761 4.97966 9.75 4 9.75C2.75736 9.75 1.75 10.7574 1.75 12C1.75 13.2426 2.75736 14.25 4 14.25C4.97966 14.25 5.81309 13.6239 6.12197 12.75H10.25V17C10.25 19.42 11.58 20.75 14 20.75H17.878C18.1869 21.6239 19.0203 22.25 20 22.25C21.2426 22.25 22.25 21.2426 22.25 20C22.25 18.7574 21.2426 17.75 20 17.75C19.0203 17.75 18.1869 18.3761 17.878 19.25H14C12.42 19.25 11.75 18.58 11.75 17V12.75H17.878C18.1869 13.6239 19.0203 14.25 20 14.25C21.2426 14.25 22.25 13.2426 22.25 12C22.25 10.7574 21.2426 9.75 20 9.75C19.0203 9.75 18.1869 10.3761 17.878 11.25H11.75V7C11.75 5.42 12.42 4.75 14 4.75H17.878C18.1869 5.62389 19.0203 6.25 20 6.25Z" fill="#D9D9D9"/>
+							</svg>
+							Organisation
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.75 15.92H13.4C14.05 15.92 14.59 15.34 14.59 14.64C14.59 13.77 14.28 13.6 13.77 13.42L12.76 13.07V15.92H12.75Z" fill="#898989"/>
+								<path d="M11.97 1.9C6.45001 1.92 1.98001 6.41 2.00001 11.93C2.02001 17.45 6.51001 21.92 12.03 21.9C17.55 21.88 22.02 17.39 22 11.87C21.98 6.35 17.49 1.89 11.97 1.9ZM14.26 12C15.04 12.27 16.09 12.85 16.09 14.64C16.09 16.18 14.88 17.42 13.4 17.42H12.75V18C12.75 18.41 12.41 18.75 12 18.75C11.59 18.75 11.25 18.41 11.25 18V17.42H10.89C9.25001 17.42 7.92001 16.04 7.92001 14.34C7.92001 13.93 8.26001 13.59 8.67001 13.59C9.08001 13.59 9.42001 13.93 9.42001 14.34C9.42001 15.21 10.08 15.92 10.89 15.92H11.25V12.54L9.74001 12C8.96001 11.73 7.91001 11.15 7.91001 9.36C7.91001 7.82 9.12001 6.58 10.6 6.58H11.25V6C11.25 5.59 11.59 5.25 12 5.25C12.41 5.25 12.75 5.59 12.75 6V6.58L13.11 6.58C14.75 6.58 16.08 7.96 16.08 9.66C16.08 10.07 15.74 10.41 15.33 10.41C14.92 10.41 14.58 10.07 14.58 9.66C14.58 8.79 13.92 8.08 13.11 8.08H12.75V11.46L14.26 12Z" fill="#898989"/>
+								<path d="M9.41998 9.37C9.41998 10.24 9.72998 10.41 10.24 10.59L11.25 10.94V8.08H10.6C9.94998 8.08 9.41998 8.66 9.41998 9.37Z" fill="#898989"/>
+							</svg>
+							Billings
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17 2.43L7 2.43C4 2.43 2 4.43 2 7.43L2 13.43C2 16.43 4 18.43 7 18.43V20.56C7 21.36 7.89 21.84 8.55 21.39L13 18.43H17C20 18.43 22 16.43 22 13.43V7.43C22 4.43 20 2.43 17 2.43ZM12 14.6C11.58 14.6 11.25 14.26 11.25 13.85C11.25 13.44 11.58 13.1 12 13.1C12.42 13.1 12.75 13.44 12.75 13.85C12.75 14.26 12.42 14.6 12 14.6ZM13.26 10.45C12.87 10.71 12.75 10.88 12.75 11.16V11.37C12.75 11.78 12.41 12.12 12 12.12C11.59 12.12 11.25 11.78 11.25 11.37V11.16C11.25 10 12.1 9.43 12.42 9.21C12.79 8.96 12.91 8.79 12.91 8.53C12.91 8.03 12.5 7.62 12 7.62C11.5 7.62 11.09 8.03 11.09 8.53C11.09 8.94 10.75 9.28 10.34 9.28C9.93 9.28 9.59 8.94 9.59 8.53C9.59 7.2 10.67 6.12 12 6.12C13.33 6.12 14.41 7.2 14.41 8.53C14.41 9.67 13.57 10.24 13.26 10.45Z" fill="#898989"/>
+							</svg>
+							Engagement
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M17.56 2L6.41 2C3.98 2 2 3.98 2 6.41L2 12.91V13.11C2 15.55 3.98 17.52 6.41 17.52H10.25C10.8 17.52 11.25 17.97 11.25 18.52V19.49C11.25 20.04 10.8 20.49 10.25 20.49H7.83C7.42 20.49 7.08 20.83 7.08 21.24C7.08 21.65 7.41 22 7.83 22H16.18C16.59 22 16.93 21.66 16.93 21.25C16.93 20.84 16.59 20.5 16.18 20.5H13.76C13.21 20.5 12.76 20.05 12.76 19.5V18.53C12.76 17.98 13.21 17.53 13.76 17.53H17.57C20.01 17.53 21.98 15.55 21.98 13.12V12.92V6.42C21.97 3.98 19.99 2 17.56 2Z" fill="#898989"/>
+							</svg>
+							Development
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M5 9C5 5.13 8.13 2 12 2C15.87 2 19 5.13 19 9C19 10.45 18.57 11.78 17.83 12.89C16.75 14.49 15.04 15.62 13.05 15.91C12.71 15.97 12.36 16 12 16C11.64 16 11.29 15.97 10.95 15.91C8.96 15.62 7.25 14.49 6.17 12.89C5.43 11.78 5 10.45 5 9ZM14.23 9.61L15.06 8.78C15.55 8.29 15.39 7.8 14.72 7.69L13.65 7.51C13.46 7.48 13.25 7.32 13.17 7.16L12.58 5.98C12.26 5.34 11.74 5.34 11.42 5.98L10.83 7.16C10.75 7.32 10.54 7.48 10.36 7.51L9.29 7.69C8.61 7.8 8.45 8.29 8.94 8.78L9.79 9.61C9.93 9.75 10 10.03 9.96 10.22L9.72 11.25C9.53 12.06 9.96 12.37 10.68 11.95L11.68 11.36C11.86 11.25 12.16 11.25 12.34 11.36L13.34 11.95C14.06 12.38 14.49 12.06 14.3 11.25L14.06 10.22C14.01 10.02 14.09 9.75 14.23 9.61ZM2.69992 18.4701L4.34992 18.8601C4.71992 18.9501 5.00992 19.2301 5.08992 19.6001L5.43992 21.0701C5.62992 21.8701 6.64992 22.1201 7.17992 21.4901L10.1699 18.0501C10.4099 17.7701 10.2799 17.3301 9.91992 17.2401C8.14992 16.8101 6.55992 15.8201 5.38992 14.4101C5.19992 14.1801 4.85992 14.1501 4.64992 14.3601L2.42992 16.5801C1.66992 17.3401 1.93992 18.2901 2.69992 18.4701ZM21.25 18.4701L19.6 18.8601C19.23 18.9501 18.94 19.2301 18.86 19.6001L18.51 21.0701C18.32 21.8701 17.3 22.1201 16.77 21.4901L13.78 18.0501C13.54 17.7701 13.67 17.3301 14.03 17.2401C15.8 16.8101 17.39 15.8201 18.56 14.4101C18.75 14.1801 19.09 14.1501 19.3 14.3601L21.52 16.5801C22.28 17.3401 22.01 18.2901 21.25 18.4701Z" fill="#898989"/>
+							</svg>
+							Performance
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81L2 16.19C2 19.83 4.17 22 7.81 22H16.19C19.83 22 22 19.83 22 16.19V7.81C22 4.17 19.83 2 16.19 2ZM7.75 13.6C7.75 14.01 7.41 14.35 7 14.35C6.59 14.35 6.25 14.01 6.25 13.6L6.25 10.4C6.25 9.99 6.59 9.65 7 9.65C7.41 9.65 7.75 9.99 7.75 10.4L7.75 13.6ZM12.75 15.34C12.75 15.75 12.41 16.09 12 16.09C11.59 16.09 11.25 15.75 11.25 15.34V8.66C11.25 8.25 11.59 7.91 12 7.91C12.41 7.91 12.75 8.25 12.75 8.66V15.34ZM17.75 13.6C17.75 14.01 17.41 14.35 17 14.35C16.59 14.35 16.25 14.01 16.25 13.6V10.4C16.25 9.99 16.59 9.65 17 9.65C17.41 9.65 17.75 9.99 17.75 10.4V13.6Z" fill="#898989"/>
+							</svg>
+							Reports
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<!-- Main Content -->
+			<section id="main-content" class="main-content with-sidebar">
+				<!-- Nav Content -->
+				<div class="nav-content">
+					<a href="#" class="is-active with-notification">Leave Management</a>
+					<a href="#">Leave Request</a>
+					<a href="#">Leave Types</a>
+					<a href="#"class="with-notification">Leave Calendar</a>
+					<a href="#">Leave Report</a>
+					<a href="#">Leave Approver</a>
+					<a href="#"><img src="assets/img/icon-settings.svg" alt="Settings icon" width="24" height="24" /></a>
+				</div>
+
+				<!-- Leave Request -->
+				<div class="headline-content">
+					<h2>Leave Requests</h2>
+					<div class="tab-links">
+						<a href="#" class="is-active">List View</a>
+						<a href="#">Month View</a>
+					</div>
+				</div>
+
+				<!-- Table Content -->
+        <div class="table-content">
+					<div class="table-content--header">
+						<div class="tabs">
+							<a href="#" class="is-active">All</a>
+							<a href="#">Approved</a>
+							<a href="#">Rejected</a>
+						</div>
+
+						<div class="date">
+							<a href="#">
+								<img src="assets/img/icon-arrow-left.svg" alt="arrow left icon" width="20" height="20" />
+							</a>
+							<div class="range">
+								<strong>March</strong> 2023
+								<a href="#">
+									<img src="assets/img/icon-date-range.svg" alt="date range icon" width="20" height="20" />
+									<img src="assets/img/icon-arrow-down.svg" alt="arrow down icon" width="20" height="20" />
+								</a>
+							</div>
+							<a href="#">
+								<img src="assets/img/icon-arrow-right.svg" alt="arrow right icon" width="20" height="20" />
+							</a>
+						</div>
+					</div>
+
+					<div class="table-content--body">
+            <div class="table-item--user">
+              <div class="user-header">
+                <div class="user-avatar">
+                  <img src="assets/img/avatar-mark-jacobs.png" alt="Marc Jacobs avatar" width="40" height="40" />
+                  Marc Jacobs
+                </div>
+                <div class="btn-links">
+									<a href="#" class="btn btn-secondary">Reject</a>
+									<a href="#" class="btn btn-primary">Approve</a>
+								</div>
+              </div>
+              <div class="user-body">
+                <div class="user-body--left">
+                  <div class="user-wrap date-start">
+                    <div>Start Date</div>
+                    <div>31 Mar, 2023 09:00 AM</div>
+                  </div>
+
+                  <div class="user-wrap date-end">
+                    <div>End Date</div>
+                    <div>31 Mar, 2023 18:00 PM</div>
+                  </div>
+                </div>
+
+                <div class="user-body--right">
+                  <div class="user-wrap days">
+                    <div>Day(s)</div>
+                    <div>1.0</div>
+                  </div>
+                  
+                  <div class="user-wrap type">
+                    <div>Leave Type</div>
+                    <div>Annual Leave</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-item--user">
+              <div class="user-header">
+                <div class="user-avatar">
+                  <img src="assets/img/avatar-charlie-kristen.png" alt="Charlie Kristen avatar" width="40" height="40" />
+                  Charlie Kristen
+                </div>
+                <div class="btn-links">
+									<a href="#" class="btn btn-secondary">Reject</a>
+									<a href="#" class="btn btn-primary">Approve</a>
+								</div>
+              </div>
+              <div class="user-body">
+                <div class="user-body--left">
+                  <div class="user-wrap date-start">
+                    <div>Start Date</div>
+                    <div>10 Apr, 2023 09:00 AM</div>
+                  </div>
+
+                  <div class="user-wrap date-end">
+                    <div>End Date</div>
+                    <div>11 Apr, 2023 18:00 PM</div>
+                  </div>
+                </div>
+
+                <div class="user-body--right">
+                  <div class="user-wrap days">
+                    <div>Day(s)</div>
+                    <div>2.0</div>
+                  </div>
+                  
+                  <div class="user-wrap type">
+                    <div>Leave Type</div>
+                    <div>Annual Leave</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-item--user is-active">
+              <div class="user-header">
+                <div class="user-avatar">
+                  <img src="assets/img/avatar-nur-maslan.png" alt="Charlie Kristen avatar" width="40" height="40" />
+                  Nur Fariha Binti Maslan
+                </div>
+                <div class="btn-links">
+									<a href="#" class="btn btn-secondary">Reject</a>
+									<a href="#" class="btn btn-primary">Approve</a>
+								</div>
+              </div>
+              <div class="user-body">
+                <div class="user-body--left">
+                  <div class="user-wrap date-start">
+                    <div>Start Date</div>
+                    <div>12 Apr, 2023 09:00 AM</div>
+                  </div>
+
+                  <div class="user-wrap date-end">
+                    <div>End Date</div>
+                    <div>24 Apr, 2023 18:00 PM</div>
+                  </div>
+                </div>
+
+                <div class="user-body--right">
+                  <div class="user-wrap days">
+                    <div>Day(s)</div>
+                    <div>2.0</div>
+                  </div>
+                  
+                  <div class="user-wrap type">
+                    <div>Leave Type</div>
+                    <div>Hospital Leave</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-item--user is-approved">
+              <div class="user-header">
+                <div class="user-avatar">
+                  <img src="assets/img/avatar-nishant-talwar.png" alt="Charlie Kristen avatar" width="40" height="40" />
+                  Nishant Talwar
+                </div>
+                <div class="btn-links">
+									<a href="#" class="btn btn-primary">Approved</a>
+								</div>
+              </div>
+              <div class="user-body">
+                <div class="user-body--left">
+                  <div class="user-wrap date-start">
+                    <div>Start Date</div>
+                    <div>27 Feb, 2023 14:00 PM</div>
+                  </div>
+
+                  <div class="user-wrap date-end">
+                    <div>End Date</div>
+                    <div>28 Feb, 2023 18:00 PM</div>
+                  </div>
+                </div>
+
+                <div class="user-body--right">
+                  <div class="user-wrap days">
+                    <div>Day(s)</div>
+                    <div>1.5</div>
+                  </div>
+                  
+                  <div class="user-wrap type">
+                    <div>Leave Type</div>
+                    <div>Sick Leave</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-item--user is-approved">
+              <div class="user-header">
+                <div class="user-avatar">
+                  <img src="assets/img/avatar-simon-minter.png" alt="Simon Minter avatar" width="40" height="40" />
+                  Simon Minter
+                </div>
+                <div class="btn-links">
+									<a href="#" class="btn btn-primary">Approved</a>
+								</div>
+              </div>
+              <div class="user-body">
+                <div class="user-body--left">
+                  <div class="user-wrap date-start">
+                    <div>Start Date</div>
+                    <div>22 Feb, 2023 09:00 AM</div>
+                  </div>
+
+                  <div class="user-wrap date-end">
+                    <div>End Date</div>
+                    <div>22 Feb, 2023 13:00 PM</div>
+                  </div>
+                </div>
+
+                <div class="user-body--right">
+                  <div class="user-wrap days">
+                    <div>Day(s)</div>
+                    <div>0.5</div>
+                  </div>
+                  
+                  <div class="user-wrap type">
+                    <div>Leave Type</div>
+                    <div>Sick Leave</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+					</div>
+				</div>
+			</section>
+
+      <section id="details" class="sidebar-details">
+        <div class="sidebar-details--wrapper">
+          <div class="sidebar-details--header">
+            <h2>Leave Details</h2>
+            <a href="#">
+              <img src="assets/img/icon-close-circle.svg" alt="Close icon" width="40" height="40" />
+            </a>
+          </div>
+
+          <div class="sidebar-details--body">
+            <div class="user-details">
+              <img src="assets/img/avatar-nur-maslan.png" alt="Nur Maslan avatar" width="40" height="40" />
+
+              <div class="detail-cols">
+                <div>
+                  <span>Name</span>
+                  <span>Nur Fariha binti Maslan</span>
+                </div>
+                <div>
+                  <span>Leave Type</span>
+                  <span>Hospital Leave</span>
+                </div>
+                <div>
+                  <span>Start Date</span>
+                  <span>21 Apr, 2023 09:00 AM</span>
+                </div>
+                <div>
+                  <span>End Date</span>
+                  <span>24 Apr, 2023 18:00 PM</span>
+                </div>
+                <div>
+                  <span>Attachment</span>
+                  <span>
+                    <img src="assets/img/icon-attachment.svg" alt="attachment icon" width="7" height="14" />
+                    Medical Certificate
+                  </span>
+                </div>
+                <div>
+                  <span>Reason</span>
+                  <span>Out of sorts</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="user-dates">
+              <div class="range">03 March 2023 - 06 March 2023</div>
+              <div class="total-hours">
+                <div class="total-hours--head">
+                  Total Hours: 16
+                  <a href="#">
+                    Expand
+                    <img src="assets/img/icon-arrow-down-blue.svg" alt="Expand" width="16" height="7" />
+                  </a>
+                </div>
+
+                <div class="total-hours--body">
+                  <div class="filter-head">
+                    <a href="#">
+                      Start Date 
+                      <img src="assets/img/icon-sort.svg" alt="sort icon" />
+                    </a>
+                    <span>Day(s)</span>
+                    <span>Hours</span>
+                  </div>
+
+                  <div class="filter-body">
+                    <span>21 Apr 2023</span>
+                    <span>Friday</span>
+                    <span>8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-details--header">
+            <h2>Approval Level</h2>
+          </div>
+
+          <div class="sidebar-details--body">
+            <div class="approval-item">
+              <div class="bullet"></div>
+              <div class="avatar"><img src="assets/img/avatar-simon-minter.png" alt="avatar" width="40" height="40" /></div>
+              <div class="details">
+                <div>
+                  <span>Name</span>
+                  <span>Simon Minter</span>
+                </div>
+                <div>
+                  <span>Designation</span>
+                  <span>Human Resource</span>
+                </div>
+                <div>
+                  <span>Approved</span>
+                  <span>Pending Approval</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="approval-item">
+              <div class="bullet"></div>
+              <div class="avatar"><img src="assets/img/avatar-queenie-teoh.png" alt="avatar" width="40" height="40" /></div>
+              <div class="details">
+                <div>
+                  <span>Name</span>
+                  <span>Queenie Teoh</span>
+                </div>
+                <div>
+                  <span>Designation</span>
+                  <span>Head of UX Design</span>
+                </div>
+                <div>
+                  <span>Approved</span>
+                  <span>Pending Approval</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="approval-item approved">
+              <div class="bullet"></div>
+              <div class="avatar"><img src="assets/img/avatar-charlie-kristen.png" alt="avatar" width="40" height="40" /></div>
+              <div class="details">
+                <div>
+                  <span>Name</span>
+                  <span>Charlie Kristen</span>
+                </div>
+                <div>
+                  <span>Designation</span>
+                  <span>Senior UX Designer</span>
+                </div>
+                <div>
+                  <span>Approved</span>
+                  <span>03 Mar 2023, 17:30 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-details--header">
+            <h2>Comment</h2>
+          </div>
+
+          <div class="sidebar-details--body">
+            <textarea name="textarea-comment" rows="6" placeholder="Your comments"></textarea>
+          </div>
+        </div>
+      </section>
+		</main>
+	</body>
+</html>
